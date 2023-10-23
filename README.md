@@ -6,3 +6,5 @@ npm install formik --save toastify
 
 #To install recharts use command:
 npm install react-chartjs-2 chart.js
+
+#Styles of MyProfileStudent and MyProfileTeacher are in MyProfile.css
