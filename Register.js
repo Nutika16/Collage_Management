@@ -67,13 +67,13 @@ const Register = () => {
                     />
                   </p>
 
-                    <div className="role">
-                    <br></br><strong>Select your role</strong>&nbsp;&nbsp;                                                        
-                    <input type="radio" id="html" name="role_radio" value="Student"/>
-                    <label>Student</label>
-                    <input type="radio" id="html1" name="role_radio" value="Teacher"/>
-                    <label>Teacher</label><br></br>
-                    </div>
+                    // <div className="role">
+                    // <br></br><strong>Select your role</strong>&nbsp;&nbsp;                                                        
+                    // <input type="radio" id="html" name="role_radio" value="Student"/>
+                    // <label>Student</label>
+                    // <input type="radio" id="html1" name="role_radio" value="Teacher"/>
+                    // <label>Teacher</label><br></br>
+                    // </div>
 
 
 
