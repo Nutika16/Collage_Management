@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Overall wrapper for the profile card */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Left section containing the user's image and information */
+  .left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .left img {
+    border-radius: 50%;
+  }
+  
+  /* Right section containing personal information and academic details */
+  .right {
+    flex: 2;
+  }
+  
+  /* Styling for headers */
+  h3 {
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Styling for personal information and academic details */
+  .info, .projects {
+    margin: 20px 0;
+  }
+  
+  .data {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  /* Styling for social media links (if uncommented) */
+  /* .social_media {
+    margin-top: 20px;
+  }
+  
+  .social_media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social_media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social_media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  } */
+  
+  /* Additional styling as needed */
+  
