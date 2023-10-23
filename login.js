@@ -175,14 +175,14 @@ export const Login = (props) => {
                       </select>
                     </div>
 
-                    <br></br>
-                    <div className="role">
-                    <br></br><br></br><br></br><strong>Select your role</strong>&nbsp;&nbsp;                                                        
-                    <input type="radio" id="html" name="role_radio" value="Student"/>
-                    <label>Student</label>&nbsp;&nbsp;
-                    <input type="radio" id="html1" name="role_radio" value="Teacher"/>
-                    <label>Teacher</label><br></br>
-                    </div>
+                    // <br></br>
+                    // <div className="role">
+                    // <br></br><br></br><br></br><strong>Select your role</strong>&nbsp;&nbsp;                                                        
+                    // <input type="radio" id="html" name="role_radio" value="Student"/>
+                    // <label>Student</label>&nbsp;&nbsp;
+                    // <input type="radio" id="html1" name="role_radio" value="Teacher"/>
+                    // <label>Teacher</label><br></br>
+                    // </div>
 
 
 
