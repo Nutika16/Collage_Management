@@ -1,6 +1,6 @@
 import React from'react';
 import SideNav from '../../Components/sidenav';
-import  {Box } from '@mui/material';
+import {Box} from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -18,7 +18,7 @@ function Home() {
        <Box sx={{ display: 'flex' }}>
        <SideNav/>
        <Box component="main" sx={{flexGrow: 1,p :3}}>
-       <Grid container spacing={2}>
+       <Grid container spacing={20}>
         <Grid item xs={8}>
         <Stack spacing={2} direction = 'row'>
         <Card sx={{ maxWidth: 345 }}>
@@ -66,7 +66,7 @@ function Home() {
         </CardContent>
       </CardActionArea>
     </Card>
-    <Card sx={{ maxWidth: 1000 }}>
+    <Card sx={{ maxWidth: 1200 }}>
       <CardActionArea>
         <CardContent>
         <div>
@@ -82,7 +82,14 @@ function Home() {
       </CardActionArea>
     </Card>
     </Stack>
-    <Card sx={{ maxWidth: 780 }}>
+        </Grid>
+        <Grid item xs={4}>
+        </Grid>
+      </Grid>
+      <Box height={150}/>
+      <Grid container spacing={20}>
+        <Grid item xs={8}>
+        <Card sx={{ maxWidth: 1100 }}>
                   <CardActionArea>
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
@@ -95,13 +102,6 @@ function Home() {
                     </CardContent>
                   </CardActionArea>
                 </Card>
-        </Grid>
-        <Grid item xs={4}>
-        </Grid>
-      </Grid>
-      <Box height={20}/>
-      <Grid container spacing={2}>
-        <Grid item xs={8}>
         </Grid>
         <Grid item xs={4}>
         </Grid>
