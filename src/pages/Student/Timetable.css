@@ -1,65 +1,72 @@
-/* Timetable.css */
+/* Center the timetable on the webpage */
+.timetable-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 /* Style for the whole timetable container */
 .timetable {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
-  }
-  
-  /* Style for the table */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    padding: 16px;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-  }
-  
-  /* Style for table header (days and times) */
-  th {
-    background-color: #dde6ec;
-    color: black;
-    padding: 12px;
-    text-align: center;
-  }
-  
-  /* Style for table cells (events) */
-  td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow to cells */
-  }
-  
-  /* Different colors for each subject */
-  td.subject-math {
-    background-color: #FF5733;
-    color: white;
-  }
-  
-  td.subject-science {
-    background-color: #90db34;
-    color: white;
-  }
-  
-  td.subject-history {
-    background-color: #F1C40F;
-    color: white;
-  }
-  
-  td.subject-english {
-    background-color: #9B59B6;
-    color: white;
-  }
-  
-  td.subject-pe {
-    background-color: #27AE60;
-    color: white;
-  }
-  
-  /* Highlighted style for table cells with events */
-  td.has-event {
-    background-color: #0995e7;
-    color: white;
-  }
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Style for the table */
+table {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse;
+  padding: 16px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Style for table header (days and times) */
+th {
+  background-color: #dde6ec;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for table cells (events) */
+td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Different colors for each subject */
+td.subject-math {
+  background-color: #FF5733;
+  color: white;
+}
+
+td.subject-science {
+  background-color: #90db34;
+  color: white;
+}
+
+td.subject-history {
+  background-color: #F1C40F;
+  color: white;
+}
+
+td.subject-english {
+  background-color: #9B59B6;
+  color: white;
+}
+
+td.subject-pe {
+  background-color: #27AE60;
+  color: white;
+}
+
+/* Highlighted style for table cells with events */
+td.has-event {
+  background-color: #584d9f ;
+  color: white;
+}
