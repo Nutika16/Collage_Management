@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 import Calendar from "react-calendar";
 
 import "react-calendar/dist/Calendar.css"; // Import calendar styles
@@ -14,11 +14,17 @@ function Cal() {
   };
 
   return (
-    <div className="calendar-container">
-      <h2>My Calendar</h2>
-      <Calendar onChange={onChange} value={date} />
-      <calendar/>
-    </div>
+    <><h2>MY CALENDAR</h2>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Calendar onChange={onChange} value={date} className={"calendar-comp"}/>
+      <calendar />
+      {/* <div className="calendar-container">
+      
+    </div> */}
+    </>
   );
 }
 

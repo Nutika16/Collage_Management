@@ -219,19 +219,24 @@ button {
   /* calender css */
   
   .calendar-container {
-    max-width: 350px; /* Adjust the maximum width as needed */
+    /*max-width: 350px;  Adjust the maximum width as needed */
     margin: 0 auto; /* Center the calendar horizontally */
     padding: 20px;
     margin-top: 200px;
     margin-right: 0px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+  }
+
+  .calendar-comp {
+    align-items: center;
+    margin-left: 600px;
   }
   
   /* Calendar header styles */
   .react-calendar__navigation {
-    background-color: #333;
+    background-color: #584d9f;
     color: #fff;
     padding: 10px;
     border-radius: 5px 5px 0 0;
@@ -267,7 +272,7 @@ button {
   
   /* Calendar tile hover effect */
   .react-calendar__tile:enabled:hover {
-    background-color: #e5e5e5;
+    background-color: #8c92ac;
   }
   
   /* Selected date styles */
@@ -285,7 +290,7 @@ button {
   
   /* Custom styles for specific dates (if needed) */
   .react-calendar__tile--specificDate {
-    background-color: #ff9900;
+    background-color: #a1cca5;
     color: #fff;
   }
   
