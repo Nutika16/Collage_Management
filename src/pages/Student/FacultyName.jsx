@@ -78,7 +78,7 @@ const FacultyNames = () => {
       s_no: 3,
       name: "Guendolen",
       email: "gsallowaye2@squidoo.com",
-      subject: "Backend",
+      subject: "Backend Engineering",
       phone_no: "5287419293",
     },
     {
@@ -86,8 +86,16 @@ const FacultyNames = () => {
       s_no: 4,
       name: "Herta",
       email: "hduggon3@upenn.edu",
-      subject: "System Design",
+      subject: "Programming Abstration",
       phone_no: "7273276609",
+    },
+
+    {
+        s_no: 5,
+        name: "Cherianne",
+        email: "cjeannaud1@comcast.net",
+        subject: "NALR",
+        phoneNo: "8562303641",
     },
   ];
 

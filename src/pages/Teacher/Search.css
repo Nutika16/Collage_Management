@@ -890,7 +890,7 @@ button {
   button {
     padding: 10px 20px;
     background-color: #584d9f;
-    color: #fff;
+    /* color: #fff; */
     border: none;
     border-radius: 5px;
     cursor: pointer;
