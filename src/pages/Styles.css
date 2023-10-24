@@ -351,7 +351,7 @@ button {
   } */
   
   .App{
-    margin-left: 500px;
+    margin-left: 100px;
   }
   
   .table-wrapper{
@@ -369,6 +369,7 @@ button {
     max-width: 100%;
     white-space: nowrap;
     background-color: white;
+
   }
   
   .fl-table td, .fl-table th {
@@ -501,6 +502,7 @@ button {
     display: flex;
     flex: 1; /* Expand container to fill available space */
     background-color: 	white;
+    float: left;
     /* margin-top: -200px; */
   }
   

@@ -15,39 +15,39 @@ class TimeTable extends Component {
       ],
       schedule: {
         Monday: {
-          '8:00 AM - 9:30 AM': 'Math Class',
-          '10:00 AM - 11:30 AM': 'Science Lab',
-          '12:00 PM - 1:30 PM': 'History Class',
-          '2:00 PM - 3:30 PM': 'English Class',
-          '4:00 PM - 5:30 PM': 'Physical Education',
+          '8:00 AM - 9:30 AM': 'Backend',
+          '10:00 AM - 11:30 AM': 'FEE',
+          '12:00 PM - 1:30 PM': 'VES',
+          '2:00 PM - 3:30 PM': 'NALR',
+          '4:00 PM - 5:30 PM': 'Backend',
         },
         Tuesday: {
-          '8:00 AM - 9:30 AM': 'Geography Class',
-          '10:00 AM - 11:30 AM': 'Art Class',
-          '12:00 PM - 1:30 PM': 'Music Class',
-          '2:00 PM - 3:30 PM': 'Computer Science',
-          '4:00 PM - 5:30 PM': 'Spanish Class',
+          '8:00 AM - 9:30 AM': 'Backend',
+          '10:00 AM - 11:30 AM': 'Backend',
+          '12:00 PM - 1:30 PM': 'FEE',
+          '2:00 PM - 3:30 PM': 'VES',
+          '4:00 PM - 5:30 PM': 'NALR',
         },
         Wednesday: {
-          '8:00 AM - 9:30 AM': 'Chemistry Class',
-          '10:00 AM - 11:30 AM': 'Biology Lab',
-          '12:00 PM - 1:30 PM': 'Physics Class',
-          '2:00 PM - 3:30 PM': 'Physical Education',
-          '4:00 PM - 5:30 PM': 'History Class',
+          '8:00 AM - 9:30 AM': 'FEE',
+          '10:00 AM - 11:30 AM': 'Backend',
+          '12:00 PM - 1:30 PM': 'Backend',
+          '2:00 PM - 3:30 PM': 'VES',
+          '4:00 PM - 5:30 PM': 'NALR',
         },
         Thursday: {
-          '8:00 AM - 9:30 AM': 'Math Class',
-          '10:00 AM - 11:30 AM': 'English Class',
-          '12:00 PM - 1:30 PM': 'Chemistry Lab',
-          '2:00 PM - 3:30 PM': 'Geography Class',
-          '4:00 PM - 5:30 PM': 'French Class',
+          '8:00 AM - 9:30 AM': 'FEE',
+          '10:00 AM - 11:30 AM': 'Backend',
+          '12:00 PM - 1:30 PM': 'Backend',
+          '2:00 PM - 3:30 PM': 'VES',
+          '4:00 PM - 5:30 PM': 'NALR',
         },
         Friday: {
-          '8:00 AM - 9:30 AM': 'Physical Education',
-          '10:00 AM - 11:30 AM': 'History Class',
-          '12:00 PM - 1:30 PM': 'Spanish Class',
-          '2:00 PM - 3:30 PM': 'Computer Science',
-          '4:00 PM - 5:30 PM': 'Biology Class',
+          '8:00 AM - 9:30 AM': 'FEE',
+          '10:00 AM - 11:30 AM': 'NALR',
+          '12:00 PM - 1:30 PM': 'VES',
+          '2:00 PM - 3:30 PM': 'Backend',
+          '4:00 PM - 5:30 PM': 'Backend',
         },
       },
     };
@@ -55,15 +55,16 @@ class TimeTable extends Component {
 
   render() {
     return (
-      <div className="timetable">
+      <div className="timetable-container">
         <h1>Timetable</h1>
-        <table>
+        <table className="timetable">
           <thead>
             <tr>
               <th></th>
               {this.state.times.map((time, index) => (
                 <th key={index}>{time}</th>
               ))}
+              <th>Free Period</th>
             </tr>
           </thead>
           <tbody>
@@ -78,6 +79,7 @@ class TimeTable extends Component {
                     {this.state.schedule[day] && this.state.schedule[day][time]}
                   </td>
                 ))}
+                <td>Free</td>
               </tr>
             ))}
           </tbody>
