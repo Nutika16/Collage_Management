@@ -240,6 +240,11 @@ button {
     align-items: center;
   }
   
+  .calendar-container{
+    margin-left: 480px;
+    margin-top: -20px;
+  }
+
   /* Calendar navigation button styles */
   .react-calendar_navigation_label,
   .react-calendar_navigation_arrow {

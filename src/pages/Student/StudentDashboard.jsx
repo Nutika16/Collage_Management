@@ -23,6 +23,7 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import { useNavigate } from 'react-router-dom';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -214,6 +215,29 @@ export default function StudentDashboard() {
                 <ListItemText primary="Time Table" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
             </ListItem>
+
+            <ListItem disablePadding sx={{ display: 'block' }}onClick={() => handleMenuItemClick('/Calender')}>
+              <ListItemButton
+                sx={{
+                  color:'white',
+                  minHeight: 48,
+                  justifyContent: open ? 'initial' : 'center',
+                  px: 2.5,
+                }}
+              >
+                <ListItemIcon
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : 'auto',
+                    justifyContent: 'center',
+                  }}
+                >
+                 <CalendarMonthIcon/>
+                </ListItemIcon>
+                <ListItemText primary="calendar" sx={{ opacity: open ? 1 : 0 }} />
+              </ListItemButton>
+            </ListItem>
+
         </List>
         <Divider />
         <List>

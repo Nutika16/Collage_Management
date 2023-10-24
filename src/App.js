@@ -17,6 +17,7 @@ import TeacherProfile from './pages/Teacher/TeacherProfile';
 import Uploads from './pages/Admin/Uploads';
 import MyProfileAdmin from './pages/Admin/MyProfileAdmin';
 import Choose from './pages/Choose';
+import Calender from './pages/Student/calender';
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
       <Route path='/Register' exact element ={<Register/>}></Route>
         <Route path='/Home' exact element ={<Home/>}></Route>
         <Route path='/Teachers' exact element ={<Teachers/>}></Route>
+        <Route path='/Calender' exact element ={<Calender/>}></Route>
         <Route path='/StudentsAdmin' exact element ={<StudentsAdmin/>}></Route>
         <Route path='/Uploads' exact element ={<Uploads/>}></Route>
         <Route path='/StudentHome' exact element ={<StudentHome/>}></Route>

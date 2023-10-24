@@ -1,15 +1,14 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from "react-router-dom";
-import './Styles.css'; 
+import './Styles.css';
+
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
-    const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -48,8 +47,7 @@ export const Login = (props) => {
 
       toast("You are Successfully logged in!");
 
-      navigate("/Login");
-     
+      window.location.replace("Login");
 
     } else {
       alert("Register Yourself!!");
@@ -57,7 +55,18 @@ export const Login = (props) => {
   }
 
   return (
-  
+    // <div Name="auth-form-container">
+    //     <h2>Login</h2>
+    //     <form className="login-form" onSubmit={handleSubmit}>
+    //         <label htmlFor="email">email</label>
+    //         <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
+    //         <label htmlFor="password">password</label>
+    //         <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
+    //         <button type="submit">Log In</button>
+    //     </form>
+    //     <button Name="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
+    // </div>
+
     <>
       <div className="container2">
         <div className="sectionWrap">
@@ -168,7 +177,15 @@ export const Login = (props) => {
                       </select>
                     </div>
 
-                   
+                    {/* <br></br>
+                    <div className="role">
+                    <br></br><br></br><br></br><strong>Select your role</strong>&nbsp;&nbsp;                                                        
+                    <input type="radio" id="html" name="role_radio" value="Student"/>
+                    <label>Student</label>&nbsp;&nbsp;
+                    <input type="radio" id="html1" name="role_radio" value="Teacher"/>
+                    <label>Teacher</label><br></br>
+                    </div> */}
+
 
 
                     <div className="button_send">
@@ -184,10 +201,20 @@ export const Login = (props) => {
                       <a href="/register">
                         <button type="button">Register</button>
                       </a>
-                      {}
+                      {/* for login change href to '/' */}
                     </div>
 
-                    {}
+                    {/* <div className="fgt_pwd">
+                      <a
+                        aria-label="Forgot Password"
+                        alt="Forgot Password"
+                        title="Forgot Password"
+                        href=""
+                        className="forgot_pwd"
+                      >
+                        Forgot Password
+                      </a>
+                    </div> */}
                   </form>
                 </div>
               </div>
