@@ -1,0 +1,29 @@
+.user-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .box {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .admin {
+    background-color: #ff6347;
+  }
+  
+  .faculty {
+    background-color: #ffa500;
+  }
+  
+  .student {
+    background-color: #87ceeb;
+  }
+  body {
+    background-color: rgb(0, 66, 128);
+}
