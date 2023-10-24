@@ -56,7 +56,13 @@ class TimeTable extends Component {
   render() {
     return (
       <div className="timetable-container">
-        <h1 className='heading'>Timetable</h1>
+        <br></br>
+        <h1 className='heading'>TIME TABLE</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <table className="timetable">
           <thead>
             <tr>
@@ -69,7 +75,7 @@ class TimeTable extends Component {
           <tbody>
             {this.state.days.map((day, index) => (
               <tr key={index}>
-                <th>{day}</th>
+                <th className = "day">{day}</th>
                 {this.state.times.map((time, idx) => (
                   <td
                     key={idx}
