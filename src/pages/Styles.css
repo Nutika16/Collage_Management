@@ -221,17 +221,19 @@ button {
   .calendar-container {
     /*max-width: 350px;  Adjust the maximum width as needed */
     margin: 0 auto; /* Center the calendar horizontally */
-    padding: 20px;
+    padding: 5px;
     margin-top: 200px;
-    margin-right: 0px;
-    /* background-color: #f9f9f9; */
+    margin-left: -100px;
+    width: 500px;
     border-radius: 5px;
-    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+    border: 3px solid #584d9f;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .calendar-comp {
     align-items: center;
-    margin-left: 600px;
+    margin-left: 80px;
+    border-radius: 5px;
   }
   
   /* Calendar header styles */
@@ -246,7 +248,7 @@ button {
   }
   
   .calendar-container{
-    margin-left: 480px;
+    margin-left: 410px;
     margin-top: -20px;
   }
 

@@ -29,7 +29,7 @@ const Template = () => {
     <div style={{ textAlign: "center" }}>
       <h2 className="heading_size">Charts and Reports</h2>
       <div className="App">
-        <div className="chart" style={{marginLeft: 400}}>
+        <div className="chart" style={{marginLeft: 400 }}>
           <PieChart width={400} height={400}>
             <Pie
               stroke="black"
