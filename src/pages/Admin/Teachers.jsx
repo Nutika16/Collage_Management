@@ -366,8 +366,8 @@ const Teachers = () => {
           <div className="formClass">
             <form onSubmit={handleSubmit}>
               <br></br>
-              <br></br>
-              <br></br>
+              {/* <br></br>
+              <br></br> */}
 
               <div className="flex flex-col">
                 <label className="NameHead">Name</label>
@@ -405,9 +405,9 @@ const Teachers = () => {
                   onChange={handleChange}
                 />
                 <br></br>
+                {/* <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
+                <br></br> */}
                 <br></br>
               </div>
               <button type="submit" className="addBtn">

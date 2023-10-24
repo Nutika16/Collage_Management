@@ -8,9 +8,9 @@ import {
 const Template = () => {
   const data = [-
     { name: "Subject1", Attendance: 94 },
-    { name: "Subject2", Attendance: 37 },
-    { name: "Subject3", Attendance: 30 },
-    { name: "Subject4", Attendance: 77},
+    { name: "NALR", Attendance: 37 },
+    { name: "FEE", Attendance: 30 },
+    { name: "Backend", Attendance: 77},
   ];
 
   return (
@@ -19,14 +19,14 @@ const Template = () => {
       <div className="App">
         <PieChart width={400} height={400} className="Pie">
           <Pie
-            stroke ="#05445E"
+            stroke ="grey"
             dataKey="Attendance"
             isAnimationActive={false}
             data={data}
             cx={PieChart.width/2} 
             cy={200}
             outerRadius={150}
-            fill="#4FC3A1"
+            fill="#584d9f"
             label
           />
           <Tooltip />

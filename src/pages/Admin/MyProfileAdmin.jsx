@@ -43,7 +43,7 @@ const MyProfileAdmin = () => {
             </div>
           </div>
           <div>
-            <div className="projects_data">
+            {/* <div className="projects_data">
               <div className="data">
                 <h4>Research Articles Published</h4>
                 <p>58</p>
@@ -51,19 +51,11 @@ const MyProfileAdmin = () => {
               <div className="data">
                 <h4>Socities</h4>
                 <p>IEEE CIET Student Branch</p>
-              </div>
+              </div> */}
             </div>
           </div>
-          {/* <div className="social_media">
-            <ul>
-              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-              <li><a href="#"><i className="fab fa-twitter" /></a></li>
-              <li><a href="#"><i className="fab fa-instagram" /></a></li>
-            </ul>
-          </div> */}
         </div>
       </div>
-    </div>
   );
 };
 

@@ -42,7 +42,7 @@ const StudentProfile = () => {
             </div>
           </div>
           <div>
-            <div className="projects_data">
+            {/* <div className="projects_data">
               <div className="data">
                 <h4>CGPA</h4>
                 <p>9.21</p>
@@ -52,7 +52,7 @@ const StudentProfile = () => {
                 <p>IEEE CIET Student Branch</p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="social_media">
             <ul>
               <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
@@ -62,6 +62,7 @@ const StudentProfile = () => {
           </div> */}
         </div>
       </div>
+    </div>
     </div>
   );
 };
