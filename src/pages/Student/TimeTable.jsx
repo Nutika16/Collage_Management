@@ -60,9 +60,6 @@ class TimeTable extends Component {
         <h1 className='heading'>TIME TABLE</h1>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <table className="timetable">
           <thead>
             <tr>
